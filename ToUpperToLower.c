@@ -9,8 +9,8 @@
 
 #include <stdio.h>
 #include <ctype.h> // Libreria que incluye las funciones: toupper y tolower
-#define TAM 32
-typedef char cadena[TAM];
+#define TAM 32 // Define un TAM de tamaño 32
+typedef char cadena[TAM]; // Creé el tipo de dato cadena con el valor de TAM(100)
 
 // Plantillas (prototipos) de funciones
 void upperCase(cadena string);
